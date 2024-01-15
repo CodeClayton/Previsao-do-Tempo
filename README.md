@@ -1,6 +1,6 @@
 # Previsão do Tempo 🌦️
 
-Desenvolvi uma aplicação de previsão do tempo com a ajuda de uma API, utilizando HTML, CSS e JS para criar uma experiência visual intuitiva.
+Desenvolvi uma aplicação de previsão do tempo com a ajuda da API da openweather, utilizando HTML, CSS e JS para criar uma experiência visual intuitiva.
 
 ## Demonstração 📹
 
@@ -13,4 +13,8 @@ https://github.com/CodeClayton/Previsao-do-Tempo/assets/134659710/da1bd294-3f31-
 Para sugestões, dúvidas ou colaborações, entre em contato comigo.
 
 Sinta-se à vontade para contribuir ou reportar problemas. Espero que aproveite a aplicação! 😊
+
+##Como Usar?
+
+Clique aqui -> [Previsão do Tempo](https://codeclayton.github.io/Previsao-do-Tempo/)
 ```
