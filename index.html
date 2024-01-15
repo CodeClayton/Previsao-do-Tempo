@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Previsão do Tempo</h1>
+        <!-- Form para receber a cidade -->
+        <form class="form" id="form">
+            <input type="text" name="countryName" id="inputForm" placeholder="Insira o nome da Cidade" class="inputForm">
+
+            <button class="btnForm"><i class="bi bi-search"></i></button>
+        </form>
+        <!-- Conteudo da previsão -->
+        <h2 id="titulo"></h2>
+        <div class="prevision">
+            <div class="info">
+                <div class="tempInfo">
+                    <p class="infoPrev">Temperatura</p>
+                    <span id="temperature">30<sup>ºC</sup></span>
+
+                    <p class="subInfo">Sensação: <span id="sensation"></span></p>
+
+                    <p class="subInfo">Humidade: <span id="humidity"></span></p>
+                </div>
+                <div class="windInfo">
+                    <p class="infoPrev">Vento</p>
+                    <p class="wind"><span>Km/h</span></p>
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="Image-temp" class="iconDay"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>Criado por CodeClayton <a href="https://github.com/CodeClayton" target="_blank" class="linkGitHub"><i class="bi bi-github"></i></a></footer>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
