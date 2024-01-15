@@ -13,4 +13,8 @@ https://github.com/CodeClayton/Previsao-do-Tempo/assets/134659710/da1bd294-3f31-
 Para sugestões, dúvidas ou colaborações, entre em contato comigo.
 
 Sinta-se à vontade para contribuir ou reportar problemas. Espero que aproveite a aplicação! 😊
+
+##Como Usar?
+
+Clique aqui -> [Previsão do Tempo](https://codeclayton.github.io/Previsao-do-Tempo/)
 ```
