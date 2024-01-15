@@ -6,7 +6,7 @@ Desenvolvi uma aplicação de previsão do tempo com a ajuda de uma API, utiliza
 
 ## Demonstração 📹
 
-[![Assista ao vídeo demonstrativo](src/img/video-preview.mp4)](src/img/video-preview.mp4)
+https://github.com/CodeClayton/Previsao-do-Tempo/assets/134659710/da1bd294-3f31-4835-a3ad-16bf9acdfc4c
 
 ![Demonstração da Aplicação](src/img/preview.png)
 
