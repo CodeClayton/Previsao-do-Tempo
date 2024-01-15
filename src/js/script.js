@@ -47,8 +47,10 @@ function showPrevision(json){
     document.querySelector('.prevision').style.display = "block";
 
     document.getElementById('titulo').innerHTML = `${json.name}, ${json.country}.`;
+
+    let temp = Math.round(json.temp);
     
-    document.getElementById('temperature').innerHTML = `${json.temp} <sup>ºC</sup>`;
+    document.getElementById('temperature').innerHTML = `${temp} <sup>ºC</sup>`;
 
     let sensation = Math.round(json.sensation);
 
