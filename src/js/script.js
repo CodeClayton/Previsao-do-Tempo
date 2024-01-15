@@ -1,4 +1,4 @@
-let apyKey = prompt('Insira a chave API');
+let apiKey = prompt('Insira a chave API');
 //recebe a chave api (para não haver spam)
 
 const form = document.getElementById('form');
@@ -13,7 +13,7 @@ form.addEventListener('submit', async (event) =>{
        showWarning("Procurando a cidade....");
        
         
-        let url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(input)}&appid=${apyKey}&units=metric&lang=pt-br`;
+        let url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(input)}&appid=${apiKey}&units=metric&lang=pt-br`;
 
         let result = await fetch(url);
         //Faz um requisição a url acima para acessar a API.
