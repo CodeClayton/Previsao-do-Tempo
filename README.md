@@ -1,6 +1,6 @@
 # Previsão do Tempo 🌦️
 
-Desenvolvi uma aplicação de previsão do tempo com a ajuda de uma API, utilizando HTML, CSS e JS para criar uma experiência visual intuitiva.
+Desenvolvi uma aplicação de previsão do tempo com a ajuda da API da openweather, utilizando HTML, CSS e JS para criar uma experiência visual intuitiva.
 
 ## Demonstração 📹
 
