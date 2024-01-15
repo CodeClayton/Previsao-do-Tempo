@@ -1,9 +1,8 @@
-let apiKey = prompt('Insira a chave API:');
-//Solicita a chave API.
+const form = document.getElementById('form');
 
-document.getElementById('form').addEventListener('submit', async (event) =>{
+form.addEventListener('submit', async (event) =>{
     event.preventDefault();
-    //Não deixar a páginar reinciar quando enviar form
+    //Não deixa a páginar reinciar quando enviar form
 
     let input = document.getElementById('inputForm').value;
 
@@ -11,7 +10,7 @@ document.getElementById('form').addEventListener('submit', async (event) =>{
        showWarning("Procurando a cidade....");
        
         
-        let url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(input)}&appid=${apiKey}&units=metric&lang=pt-br`;
+        let url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(input)}&appid=d2771a0d8ca543807127cae07746c481&units=metric&lang=pt-br`;
 
         let result = await fetch(url);
         //Faz um requisição a url acima para acessar a API.
